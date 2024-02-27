@@ -90,11 +90,17 @@ textarea {
 .content-wrapper {
   outline: 3px dotted red;
   width: 90%;
+  margin: 50px 0;
 }
-
+.header-divider {
+  width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
+}
 header {
   display: flex;
   justify-content: center;
+  padding: 15px 0;
 }
 
 header .content-wrapper {
@@ -102,11 +108,83 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
 }
-
+header nav {
+  width: 60%;
+  padding: 30px 0 15px 0;
+}
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 100%;
+  margin: 0;
+}
+
+.hero-area {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0 20px 0;
+}
+
+.form-description h3 {
+  padding: 20px 0;
+}
+.form-description p {
+  padding: 0 0 30px 0;
+}
+
+.form h3 {
+  padding: 20px 0;
+}
+.form input {
+  padding: 1em;
+  margin: 20px 0;
+  width: 60%;
+}
+.features {
+  display: flex;
+  justify-content: center;
+}
+.features h2 {
+  margin-bottom: 60px;
+}
+.features article {
+  width: 63%;
+  margin: 30px 0;
+}
+.features .features-items {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
+.features p {
+  margin: 0;
+}
+.reviews {
+  display: flex;
+  justify-content: center;
+}
+.reviews h3 {
+  width: 55%;
+}
+.mission {
+  display: flex;
+  justify-content: center;
+}
+.contact-section {
+  display: flex;
+  justify-content: center;
+}
+.contact-content p {
+  margin: 0;
 }
 footer {
   display: flex;
@@ -114,7 +192,10 @@ footer {
   align-items: center;
   text-align: center;
 }
-
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
 footer .social-icons {
   display: flex;
   justify-content: space-around;
@@ -125,42 +206,14 @@ footer .social-icons p {
   justify-content: center;
   align-items: center;
 }
-
-.hero-area {
-  display: flex;
-  justify-content: center;
+footer p {
+  margin: 0;
 }
-
-aside {
-  display: flex;
-  justify-content: center;
+footer .contact {
+  margin-bottom: 50px;
 }
-
-.features {
-  display: flex;
-  justify-content: center;
-}
-
-.features .features-items {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-flow: row wrap;
-}
-
-.reviews {
-  display: flex;
-  justify-content: center;
-}
-
-.mission {
-  display: flex;
-  justify-content: center;
-}
-
-.contact-section {
-  display: flex;
-  justify-content: center;
+footer .copyright {
+  margin: 20px 0;
 }
 
 .faq {
@@ -172,8 +225,14 @@ aside {
   justify-content: center;
   align-items: flex-start;
   flex-flow: row wrap;
+  margin-top: 50px 0 0 0;
 }
-
+.faq h2 {
+  margin: 40px;
+}
+.faq-content {
+  margin-bottom: 50px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
